@@ -7,30 +7,27 @@ namespace Benny
         static void Main(string[] args)
         {
             Console.WriteLine("Fizz Buzz test!");
-
-            FizzBuzzer();
-
+            FizzBuzzer(100,3,5);
             Console.Read();
         }
 
-        private static void FizzBuzzer()
+        private static void FizzBuzzer(int n, int f, int b)
         {
-            for (int i = 1; i <= 100; i++)
+            for (int i = 1; i <= n; i++)
             {
-                string output = "";
-                if (i % 15 == 0)
+                string output = null;
+                if (i % (f*b) == 0)
                 {
                     output = " FizzBuzz";
                 }
-                else if (i % 3 == 0)
+                else if (i % f == 0)
                 {
                     output = " Fizz";
                 }
-                else if (i % 5 == 0)
+                else if (i % b == 0)
                 {
                     output = " Buzz";
                 }
-
                 Console.WriteLine(i + output);
             }
         }
