@@ -8,6 +8,7 @@ namespace FizzBuzz.Tests
         public void GivenValueFizzBuzzerReturnsFizz()
         {
             Assert.fail();
+            
         }
     }
 }
