@@ -1,2 +1,9 @@
 bin/
 obj/
+.vs/fizz_buzz/xs/.DS_Store
+.vs/fizz_buzz/.DS_Store
+.vs/.DS_Store
+.vs/fizz_buzz/xs/UserPrefs.xml
+.vs/fizz_buzz/xs/project-cache/fizz_buzz_tests-Debug.json
+.vs/fizz_buzz/xs/project-cache/fizz_buzz_lib-Debug.json
+.vs/fizz_buzz/xs/project-cache/fizz_buzz-Debug.json
