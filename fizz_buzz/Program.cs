@@ -11,7 +11,7 @@ namespace fizz_buzz
             var fbl = new fizz_buzz_lib.fizzbuzzer(); 
             for (int i = 1; i <= 100; i++)
             {
-                output = fbl.calculator(i, 3, 5);
+                output = fbl.Calculator(i, 3, 5);
                 Console.WriteLine(output);
             }
             Console.Read();
