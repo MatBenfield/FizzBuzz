@@ -4,7 +4,7 @@ namespace fizz_buzz_lib
 {
     public class fizzbuzzer
     {
-        public string calculator(int i, int f, int b)
+        public string Calculator(int i, int f, int b)
         {
             string output = null;
             if (i % (f * b) == 0)

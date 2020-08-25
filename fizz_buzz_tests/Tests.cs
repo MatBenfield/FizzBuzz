@@ -11,7 +11,7 @@ namespace fizz_buzz_tests
         public void GivenValuesCalculatorReturnsFizz(int value)
         {
             var fbl = new fizz_buzz_lib.fizzbuzzer();
-            var output = fbl.calculator(value, 3, 5);
+            var output = fbl.Calculator(value, 3, 5);
 
             Assert.AreEqual(output, $"{value} Fizz");
         }
@@ -22,7 +22,7 @@ namespace fizz_buzz_tests
         public void GivenValuesCalculatorReturnsBuzz(int value)
         {
             var fbl = new fizz_buzz_lib.fizzbuzzer();
-            var output = fbl.calculator(value, 3, 5);
+            var output = fbl.Calculator(value, 3, 5);
 
             Assert.AreEqual(output, $"{value} Buzz");
         }
@@ -33,7 +33,7 @@ namespace fizz_buzz_tests
         public void GivenValuesCalculatorReturnsFizzBuzz(int value)
         {
             var fbl = new fizz_buzz_lib.fizzbuzzer();
-            var output = fbl.calculator(value, 3, 5);
+            var output = fbl.Calculator(value, 3, 5);
 
             Assert.AreEqual(output, $"{value} FizzBuzz");
         }
@@ -44,7 +44,7 @@ namespace fizz_buzz_tests
         public void GivenValuesCalculatorReturnsInteger(int value)
         {
             var fbl = new fizz_buzz_lib.fizzbuzzer();
-            var output = fbl.calculator(value, 3, 5);
+            var output = fbl.Calculator(value, 3, 5);
 
             Assert.AreEqual(output, $"{value}");
         }
@@ -55,7 +55,7 @@ namespace fizz_buzz_tests
         public void GivenValuesCalculatorReturnsFizzAndNotBuzz(int value)
         {
             var fbl = new fizz_buzz_lib.fizzbuzzer();
-            var output = fbl.calculator(value, 3, 5);
+            var output = fbl.Calculator(value, 3, 5);
 
             Assert.AreNotEqual(output, $"{value} Buzz");
         }
