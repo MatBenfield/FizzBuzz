@@ -1,9 +1,19 @@
 using NUnit.Framework;
+using System;
 
 namespace fizz_buzz_tests
 {
     public class Tests
     {
+        [TestCase(-1)]
+        [TestCase(-3)]
+        [TestCase(0)]
+        public void GivenImpossibleValuesCalculatorReturnsValue(int value)
+        {
+            var fbl = new fizz_buzz_lib.fizzbuzzer();
+            Assert.Throws<ArgumentOutOfRangeException>(()=> fbl.Calculator(value, 3, 5));
+        }
+
 
         [TestCase(3)]
         [TestCase(6)]
