@@ -8,7 +8,4 @@
   <ItemGroup>
     <ProjectReference Include="..\fizz_buzz_lib\fizz_buzz_lib.csproj" />
   </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Serilog" Version="0.2.8" />
-  </ItemGroup>
 </Project>
