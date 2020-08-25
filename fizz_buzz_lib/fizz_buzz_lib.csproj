@@ -6,6 +6,6 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
-    <PackageReference Include="bootstrap" Version="3.3.0" />
+    <PackageReference Include="bootstrap" Version="3.4.1" />
   </ItemGroup>
 </Project>
